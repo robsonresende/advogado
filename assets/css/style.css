@@ -1,14 +1,98 @@
 /* PROJETO ADVOGADO*/
 
-/* FONTE DO LOGO
-	font-family: 'Fjalla One', sans-serif;
-*/
+/*FONTES:
+NAV-BRAND:
+font-family: 'Song Myung', serif;
 
-/* FONTE DAS LETRAS VERMELHAS
-	font-family: 'Noto Sans', sans-serif;
+TÍTULOS: Noto Serif
+font-family: 'Noto Serif', serif;
+
+TEXTO: lato
+font-family: 'Lato', sans-serif;
+
 */
 
 body {
-	font-family: helvetica;
+	font-family: 'Lato', sans-serif;
+	background-color: #C4C4C4;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Noto Serif', serif;
+	font-weight: bold;
+}
+
+
+
+.form-inline i {
+	color: #333333;
+	font-size: 1.5em;
+}
+
+.bg-light {
+	background-color: #F2F5F7;
+	color: #F2F5F7;
+}
+
+.navbar-light .navbar-brand {
+	font-family: 'Song Myung', serif;
+	font-size: 2.2em;
+	color: #333333 !important;
+}
+
+.navbar {
+	font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #337AB7;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.container-fluid {
+	/*background-color: #43474A;*/
+	background-color: #43474A;
+	
+
+}
+
+
+.boxTitulo {
+	color: #ffffff;
+	font-family:'Noto Serif', serif;
+	font-weight: bold;	
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.btn-primary {
+	background-color: #337AB7;
+	border-color: #337AB7;
+}
+
+.btn-primary:hover {
+	background-color: #23537D;
+	border-color: #23537D;
+}
+
+.maxLarg {
+	max-width: 95%;
+	max-height: 95%;
+}
+
+.btn-secondary {
+	background-color: #000000;
+	border-color: #000000;
+}
+
+.bg-dark {
+	background-color: #1A1A1A !important;
+	color: #ffffff;
+}
